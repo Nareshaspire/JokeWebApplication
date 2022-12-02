@@ -1,8 +1,13 @@
-﻿using JokesApplication.Models;
+﻿using JokesWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace JokesApplication.Controllers
+namespace JokesWebApp.Controllers
 {
     public class HomeController : Controller
     {
